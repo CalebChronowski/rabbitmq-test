@@ -1,0 +1,3 @@
+# Description
+
+This `app` directory will contain all the code for the main application logic. In clearer terms, things like connections to exchanges/defi data sources will be abstracted away into their own services contained in the `conn` folder. The database service `db` is also totally decoupled from the main app. Users can control the app's behavior via an `api` which also will serve as the external access point for the data itself.
